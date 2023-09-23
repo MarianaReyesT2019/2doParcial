@@ -1,0 +1,62 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ad0404;
+    padding: 20px;
+    height: 100vh; 
+}
+
+/* Estilos para el menú */
+.menu {
+    background-color: #333;
+    color: #fff;
+    width: 200px; 
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el contenido principal */
+.content {
+    flex-grow: 1; 
+    max-width: calc(100% - 200px); 
+    background-color: #ece6e6;
+    padding: 20px;
+    border: 1px solid #2a2626;
+
+
+}
+
+/* Estilos para el footer */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
